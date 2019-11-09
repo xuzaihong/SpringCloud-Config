@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: - dev
+---
+
+spring:
+  profiles: dev
+  application:
+    name: xxxxxxxxxxxxxxxxxxxxxxx-dev
+
+---
+
+spring:
+  profiles: uat
+  application:
+    name: xxxxxxxxxxxxxxxxxxxxxxx-uat
